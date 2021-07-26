@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: none !important;
+}
+
+.chakra-divider {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-bottom: 1px solid #2d3748 !important;
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.noneBoxShadowBtn {
+  box-shadow: none !important;
+}
+
+button.primary {
+  background-color: #1ac486;
+  border: 1px solid #1ac486;
+  color: white;
+}
+
+button.primary:hover {
+  background-color: #1ac486;
+  opacity: 0.7;
+}
+button.primary:active {
+  background-color: #1ac486;
+}
+button.primary:focus {
+  background-color: #1ac486;
+  opacity: 1;
+}
+
+button.primary[disabled] {
+  background-color: #cbd5e0;
+  border: 1px solid #cbd5e0;
+  opacity: 0.7;
+}
+
+button.primary[disabled]:hover {
+  background-color: #cbd5e0;
+  border: 1px solid #cbd5e0;
+}
+
+button.secondary {
+  background-color: transparent;
+  border: 1px solid #1ac486;
+  color: white;
+}
+
+button.secondary:hover {
+  background-color: transparent;
+  opacity: 0.7;
+}
+button.secondary:active {
+  background-color: transparent;
+}
+button.secondary:focus {
+  background-color: transparent;
+  opacity: 1;
+}
+
+button.secondary[disabled] {
+  background-color: #cbd5e0;
+  border: 1px solid #cbd5e0;
+  opacity: 0.7;
+}
+
+button.secondary[disabled]:hover {
+  background-color: #cbd5e0;
+  border: 1px solid #cbd5e0;
+}
+
+.chakra-checkbox__control[aria-checked='true']:hover,
+.chakra-checkbox__control[data-checked]:hover,
+.chakra-checkbox__control[aria-checked='true'][data-hover],
+.chakra-checkbox__control[data-checked][data-hover] {
+  background: var(--chakra-colors-teal-150) !important;
+  border-color: var(--chakra-colors-teal-150) !important;
+}
+.chakra-checkbox__control[disabled],
+.chakra-checkbox__control[aria-disabled='true'],
+.chakra-checkbox__control[data-disabled] {
+  background: none !important;
+  border-color: unset !important;
+  color: #616874 !important;
+}
+.chakra-checkbox__control:indeterminate,
+.chakra-checkbox__control[aria-checked='mixed'],
+.chakra-checkbox__control[data-indeterminate] {
+  background: var(--chakra-colors-teal-150) !important;
+  border-color: var(--chakra-colors-teal-150) !important;
+  color: var(--chakra-colors-white);
+}
+button[aria-selected='true'] {
+  color: #1ac486 !important;
+}
+
+button[aria-selected]:active {
+  background-color: transparent;
+  opacity: 1;
+}
+
+button.danger {
+  background-color: #f56565;
+  border: 1px solid #f56565;
+  color: white;
+}
+
+button.danger:hover {
+  background-color: #f56565;
+  opacity: 0.7;
+}
+button.danger:focus {
+  background-color: #f56565;
+  opacity: 1;
+}
+button.danger:active {
+  background-color: #f56565;
+  opacity: 1;
+}
+
+button.danger[disabled] {
+  background-color: #cbd5e0;
+  border: 1px solid #cbd5e0;
+  opacity: 0.7;
+}
+
+button.danger[disabled]:hover {
+  background-color: #cbd5e0;
+  border: 1px solid #cbd5e0;
+}
+
+.DateRangePicker__MonthHeader {
+  color: #fff !important;
+}
+
+.DateRangePicker__PaginationArrow:hover {
+  background: transparent !important;
+}
+
+.DateRangePicker__Weekdays,
+.DateRangePicker__WeekdayHeading > abbr {
+  color: #1ac486 !important;
+  font-weight: 500;
+}
+
+.DateRangePicker__WeekdayHeading {
+  border: none !important;
+}
+
+.DateRangePicker__MonthDates {
+  border-spacing: unset;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.DateRangePicker__Date {
+  background-color: transparent !important;
+  color: var(--chakra-colors-gray-500);
+  border: none !important;
+}
+
+.DateRangePicker__Date--is-highlighted {
+  color: white !important;
+  border: none !important;
+  border-radius: 50%;
+}
+
+.DateRangePicker__CalendarHighlight--single {
+  background-color: var(--chakra-colors-gray-500) !important;
+  color: white !important;
+  border-radius: 50%;
+  border: none !important;
+}
+
+.DateRangePicker__MonthHeaderSelect {
+  background: var(--chakra-colors-gray-700) !important;
+}
+/*.DateRangePicker__CalendarHighlight {*/
+/*  background-color: var(--chakra-colors-gray-500) !important;*/
+/*  color: white !important;*/
+/*  border-radius: 50%;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  border: none !important;*/
+/*}*/
+
+.DateRangePicker__CalendarSelection--is-pending {
+  background: var(--chakra-colors-gray-500) !important;
+}
+
+.DateRangePicker__CalendarSelection {
+  background: var(--chakra-colors-gray-500) !important;
+  border: 1px solid var(--chakra-colors-gray-500) !important;
+}
+#table-currency th {
+  padding: 5px;
+  text-transform: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--chakra-colors-gray-500);
+  border: none;
+}
+
+#table-currency td {
+  padding: 5px;
+  text-transform: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--chakra-colors-gray-500);
+  border: none;
+}
+.style-4::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #1A202C;
+}
+
+.style-4::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background-color: #1A202C;
+}
+
+.style-4::-webkit-scrollbar-thumb {
+  background-color: #4A5568;
+  border: 2px solid #555555;
+}
+
+.order-list::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #1A202C;
+}
+
+.order-list::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background-color: #1A202C;
+}
+
+.order-list::-webkit-scrollbar-thumb {
+  background-color: #4A5568;
+  border: 2px solid #555555;
+  border-radius: 5px;
+}
